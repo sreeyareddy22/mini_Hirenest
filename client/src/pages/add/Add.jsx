@@ -79,14 +79,14 @@ const Add = () => {
       features: state.features || [],
       cover:
         state.cover ||
-        "https://media.istockphoto.com/id/182724120/photo/violin-on-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=LGE8_YDipAk7iLtggdsMN6G4Cx4GCUIk0H3r8Vg2tMc=",
+        "https://media.istockphoto.com/id/https://img.freepik.com/free-vector/designer-girl-concept-illustration_114360-4455.jpg?semt=ais_hybrid&w=740/photo/graphic-designer-at-work-color-samples.webp?a=1&b=1&s=612x612&w=0&k=20&c=kGWzTnVK3V8TA4oNf9md_8grNMewF-EsgDUnyQBPMAQ=",
       images: state.images || [],
     };
 
     console.log("Data being sent to server:", gigData);
 
     mutation.mutate(gigData);
-     navigate("/mygigs")
+     navigate("/gigs")
   };
 
   return (

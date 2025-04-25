@@ -1,12 +1,12 @@
 .home {
   .features {
-    background-color: #f1fdf7;
+    background-color: #bee9e8;
     display: flex;
     justify-content: center;
     padding: 100px 0px;
 
     &.dark {
-      background-color: #0d084d;
+      background-color: #1b4965;
 
       h1 {
         color: white !important;
@@ -28,7 +28,7 @@
       }
 
       button {
-        background-color: #1dbf73;
+        background-color: #62b6cb;
         border: none;
         color: white;
         padding: 10px 20px;
